@@ -1,0 +1,31 @@
+{
+  "name": "flappy-birds",
+  "version": "0.0.0",
+  "description": "Clone of classic flappy birds game",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "webpack serve --open",
+    "test": "npm run test"
+  },
+  "keywords": [
+    "ts",
+    "rxjs",
+    "game",
+    "bird",
+    "browser"
+  ],
+  "author": "Adrian Bury",
+  "license": "ISC",
+  "devDependencies": {
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "ts-loader": "^9.1.1",
+    "typescript": "^4.2.4",
+    "webpack": "^5.35.1",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "rxjs": "^6.6.7"
+  }
+}
