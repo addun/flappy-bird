@@ -1,10 +1,11 @@
 {
   "name": "flappy-birds",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Clone of classic flappy birds game",
   "main": "src/main.ts",
   "scripts": {
     "start": "webpack serve --open",
+    "build": "webpack --mode=production",
     "test": "npm run test"
   },
   "keywords": [
